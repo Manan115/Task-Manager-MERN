@@ -33,32 +33,6 @@ A full-stack **Task Management Web App** built with the **MERN** stack — Mongo
 
 ---
 
-## 📁 Folder Structure
-
-# Task-Manager
-
-task-manager/
-│
-├── vite-project/ # React Frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ └── tailwind.config.js
-│
-├── server/ # Express Backend
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ ├── middleware/
-│ └── server.js
-│
-├── .env
-└── README.md
-
----
-
 # 🛠️ Installation Instructions
 
 ## Prerequisites
