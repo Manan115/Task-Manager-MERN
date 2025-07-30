@@ -56,48 +56,53 @@ task-manager/
 │
 ├── .env
 └── README.md
+
 ---
 
-## 🛠️ Installation Instructions
+# 🛠️ Installation Instructions
 
-### Prerequisites
+## Prerequisites
 - Node.js
 - MongoDB
 - npm or yarn
 
-### Clone the Repository
+## Clone the Repository
 
 ``bash
-git clone https://github.com/your-username/task-manager-mern.git
-cd task-manager-mern
+- git clone https://github.com/your-username/task-manager-mern.git
+- cd task-manager-mern
 
-### Backend Setup 
-cd server
-npm install
-touch .env
+## Backend Setup 
+- cd server
+- npm install
+- touch .env
 
-### .env onfiguration 
-PORT=4000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/taskmanager
-JWT_SECRET=your_jwt_secret
+## .env onfiguration 
+- PORT=4000
+- MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/taskmanager
+- JWT_SECRET=your_jwt_secret
 
 ### Frontend Setup
-cd ../vite-project
-npm install
-npm run dev
-Visit: http://localhost:5173
+- cd ../vite-project
+- npm install
+- npm run dev
+- Visit: http://localhost:5173
+
+  ---
 
 # 📦 API Reference
 
-##🔐 Auth Routes
-Method	Endpoint	Description
-POST	/api/auth/register	Register new user
-POST	/api/auth/login	Login user
+## 🔐 Auth Routes
+- Method	Endpoint	Description
+- POST	/api/auth/register	Register new user
+- POST	/api/auth/login	Login user
 
 ## 📋 Task Routes (Protected)
-Method	Endpoint	Description
-GET	/api/tasks/	Get all tasks
-POST	/api/tasks/	Create new task
-PUT	/api/tasks/:id	Update task
-DELETE	/api/tasks/:id	Delete task
+- Method	Endpoint	Description
+- GET	/api/tasks/	Get all tasks
+- POST	/api/tasks/	Create new task
+- PUT	/api/tasks/:id	Update task
+- DELETE	/api/tasks/:id	Delete task
+
+  ---
 
