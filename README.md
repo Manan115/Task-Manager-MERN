@@ -43,7 +43,7 @@ A full-stack **Task Management Web App** built with the **MERN** stack — Mongo
 ## Clone the Repository
 
 ``bash
-- git clone https://github.com/your-username/task-manager-mern.git
+  - git clone https://github.com/Manan115/task-manager-mern.git
 - cd task-manager-mern
 
 ## Backend Setup 
